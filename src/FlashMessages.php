@@ -38,7 +38,8 @@ class FlashMessages {
     
     // HTML for the close button
     protected $closeBtn  = '<button type="button" class="close" 
-                                data-dismiss="alert" 
+                                data-dismiss="alert"
+                                onclick="javascript:this.parentElement.remove()" 
                                 aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>';
